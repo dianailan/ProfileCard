@@ -1,0 +1,89 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: 'Kumbh Sans', sans-serif;
+  box-sizing: border-box;
+}
+.abs{
+  position: absolute;
+}
+
+/* Card div */
+#card{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 370px;
+  width: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.pattern-top{
+  top: -70%;
+  left: -25%;
+  width: 70%;
+}
+.pattern-bottom{
+  bottom: -90%;
+  right: -25%;
+  width: 70%;
+}
+.card-pattern{
+  border-radius: 10px 10px 0 0;
+}
+
+/* Profile Div Circle */
+.profile-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+  height: 105px;
+  background-color: white;
+  border-radius: 50%;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.victor{
+  border-radius: 50%;
+}
+
+/* Text div */
+.text-div{
+  margin-top: 70px;
+  text-align: center;
+
+}
+h2{
+  font-size: 18px;
+  color: hsl(229, 23%, 23%);
+}
+span{
+  color: hsl(227, 10%, 46%);
+}
+.london{
+  color: hsl(227, 10%, 46%);
+  font-size: 15px;
+}
+.light-style{
+  color: hsl(227, 10%, 46%);
+  font-size: 12px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+.bold-style{
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.followers{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px hsl(0deg 0% 90%) solid;
+}
